@@ -34,4 +34,9 @@ def group_by_decade(movies):
                 # for v in movies[y]:
                 moviedec[x].append(y)
     return moviedec
-pprint.pprint(group_by_decade(Movies_details))
+# pprint.pprint(group_by_decade(Movies_details))
+
+Year_Dec10=(group_by_decade(Movies_details))
+# pprint.pprint(Year_Dec10)
+
+
